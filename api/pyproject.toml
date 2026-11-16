@@ -107,6 +107,7 @@ dify-vdb-tablestore = { workspace = true }
 dify-vdb-tencent = { workspace = true }
 dify-vdb-tidb-on-qdrant = { workspace = true }
 dify-vdb-tidb-vector = { workspace = true }
+dify-vdb-topk = { workspace = true }
 dify-vdb-upstash = { workspace = true }
 dify-vdb-vastbase = { workspace = true }
 dify-vdb-vikingdb = { workspace = true }
@@ -286,6 +287,7 @@ vdb-all = [
     "dify-vdb-tencent",
     "dify-vdb-tidb-on-qdrant",
     "dify-vdb-tidb-vector",
+    "dify-vdb-topk",
     "dify-vdb-upstash",
     "dify-vdb-vastbase",
     "dify-vdb-vikingdb",
@@ -317,6 +319,7 @@ vdb-tablestore = ["dify-vdb-tablestore"]
 vdb-tencent = ["dify-vdb-tencent"]
 vdb-tidb-on-qdrant = ["dify-vdb-tidb-on-qdrant"]
 vdb-tidb-vector = ["dify-vdb-tidb-vector"]
+vdb-topk = ["dify-vdb-topk"]
 vdb-upstash = ["dify-vdb-upstash"]
 vdb-vastbase = ["dify-vdb-vastbase"]
 vdb-vikingdb = ["dify-vdb-vikingdb"]

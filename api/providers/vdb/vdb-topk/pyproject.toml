@@ -1,0 +1,14 @@
+[project]
+name = "dify-vdb-topk"
+version = "0.0.1"
+
+dependencies = [
+    "topk-sdk==0.16.1",
+]
+description = "Dify vector store backend (dify-vdb-topk)."
+
+[project.entry-points."dify.vector_backends"]
+topk = "dify_vdb_topk.topk_vector:TopKVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]
